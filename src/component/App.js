@@ -5,7 +5,8 @@ import List from "./List"
 class App extends React.Component{
     state = {
         name : "Fahmi Wahyudi",
-        jabatan : "Programmer"
+        jabatan : "Programmer",
+        divisi : "Pengembangan Aplikasi TI"
     }
 
     change = () =>{
